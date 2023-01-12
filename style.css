@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(to bottom right, #162bc9, #16bac9, #5ccc54);
+}
+
+h1{
+    color: aquamarine;
+    font-family: 'Rowdies', cursive;
+   padding-left: 150px;
+}
+
+#show_sketch{
+    float: right;
+    padding: 10px;
+    font-family: 'Rowdies', cursive;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite; 
+
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px wheat;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color: aquamarine;
+    font-family: 'Rowdies', cursive;
+}
+
+button{
+    font-family: 'Rowdies', cursive;
+}
+
